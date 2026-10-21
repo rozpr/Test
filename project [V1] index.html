@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Buku Tempel Hewan Kucing</title>
+<style>
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#e8e1d5;font-family:Arial,Helvetica,sans-serif;color:#292929}
+.book{width:100%;max-width:1000px;margin:0 auto;background:#fffdf8;min-height:100vh;box-shadow:0 0 25px rgba(0,0,0,.15)}
+.header{background:#222;color:white;text-align:center;padding:30px 20px}
+.header h1{margin:0;font-size:32px}.header p{margin:10px 0 0;font-size:16px;color:#ddd}
+.page{min-height:650px;padding:40px 35px;border-bottom:2px dashed #cfc6b8;position:relative}
+.page-number{position:absolute;top:20px;right:25px;background:#222;color:white;padding:7px 13px;border-radius:20px;font-size:13px;font-weight:bold}
+.page-title{text-align:center;margin-bottom:30px}.page-title h2{font-size:28px;margin:0 0 10px}.page-title p{color:#666;margin:0}
+.cat-info{display:flex;align-items:center;gap:30px;background:#f5f0e7;border-radius:18px;padding:22px;margin-bottom:25px;box-shadow:0 5px 15px rgba(0,0,0,.08)}
+.cat-info img{width:45%;height:280px;object-fit:cover;border-radius:15px;display:block}
+.cat-text{flex:1}.cat-text h3{margin-top:0;font-size:22px}.cat-text p{font-size:16px;line-height:1.8;margin-bottom:15px}
+.card{background:white;border:1px solid #ded8ce;border-radius:15px;padding:20px;margin-top:20px}.card h3{margin-top:0}.card p,.card li{line-height:1.8}.card ul{padding-left:25px}
+.fact{display:grid;grid-template-columns:repeat(2,1fr);gap:15px}.fact-box{background:#f1ece3;padding:18px;border-radius:13px;line-height:1.6}.fact-box b{display:block;margin-bottom:7px;font-size:17px}
+.footer{text-align:center;padding:45px 20px;background:#222;color:white}.footer h2{margin-top:0}.footer p{color:#ccc;margin-bottom:22px}
+.visit-button{display:inline-block;background:white;color:#222;text-decoration:none;font-weight:bold;padding:14px 28px;border-radius:10px;transition:.2s}.visit-button:hover{transform:scale(1.05);background:#eee}
+@media(max-width:700px){
+.header h1{font-size:26px}.page{min-height:auto;padding:45px 18px}.cat-info{flex-direction:column;gap:20px;padding:16px}
+.cat-info img{width:100%;height:240px}.cat-text{width:100%}.cat-text p{font-size:15px}.fact{grid-template-columns:1fr}.page-title h2{font-size:24px}
+}
+</style>
+</head>
+<body>
+<div class="book">
+<header class="header">
+<h1>📖 Buku Tempel Hewan Kucing 🐱</h1>
+<p>Mengenal kehidupan, ciri-ciri, kebiasaan, dan perawatan kucing</p>
+</header>
+
+<section class="page"><div class="page-number">Halaman 1</div><div class="page-title"><h2>🐱 Mengenal Hewan Kucing</h2><p>Kucing merupakan salah satu hewan yang banyak dikenal manusia.</p></div>
+<div class="cat-info"><img src="https://images.unsplash.com/photo-1518791841217-8f162f1e1131?auto=format&fit=crop&w=1000&q=80" alt="Kucing"><div class="cat-text"><h3>Apa itu kucing?</h3><p>Kucing adalah mamalia kecil yang termasuk ke dalam keluarga Felidae. Kucing domestik dikenal sebagai salah satu hewan yang sering hidup berdampingan dengan manusia.</p><p>Kucing mempunyai tubuh yang lentur, kaki yang kuat, cakar, ekor, kumis, serta pendengaran dan penglihatan yang membantu mereka ketika beraktivitas.</p><p>Selain menjadi hewan peliharaan, kucing juga dapat hidup secara bebas dan mencari makanan sendiri di lingkungan perkotaan maupun pedesaan.</p></div></div>
+<div class="card"><h3>📌 Fakta penting</h3><p>Nama ilmiah kucing domestik adalah <i>Felis catus</i>. Kucing termasuk kelompok mamalia dan merupakan hewan karnivora.</p></div></section>
+
+<section class="page"><div class="page-number">Halaman 2</div><div class="page-title"><h2>🐾 Ciri-Ciri Fisik Kucing</h2><p>Tubuh kucing mempunyai banyak bagian yang membantu kehidupannya.</p></div>
+<div class="cat-info"><img src="https://images.unsplash.com/photo-1573865526739-10659fec78a5?auto=format&fit=crop&w=1000&q=80" alt="Kucing berbulu"><div class="cat-text"><h3>Bentuk tubuh kucing</h3><p>Kucing mempunyai tubuh yang relatif lentur. Tubuh yang fleksibel membuat kucing dapat bergerak dengan cepat, berlari, melompat, dan berbelok ketika mengejar sesuatu.</p><p>Kucing juga mempunyai empat kaki, ekor, dua telinga, sepasang mata, hidung, mulut, dan kumis.</p><p>Tubuh kucing ditutupi oleh bulu yang memiliki berbagai warna dan pola.</p></div></div>
+<div class="fact"><div class="fact-box"><b>👂 Telinga</b>Membantu kucing mendengar suara dari lingkungan.</div><div class="fact-box"><b>👀 Mata</b>Membantu kucing melihat keadaan sekitar.</div><div class="fact-box"><b>🐾 Kaki</b>Digunakan untuk berjalan, berlari, dan melompat.</div><div class="fact-box"><b>〰️ Ekor</b>Membantu keseimbangan dan komunikasi.</div></div></section>
+
+<section class="page"><div class="page-number">Halaman 3</div><div class="page-title"><h2>🍖 Makanan Kucing</h2><p>Makanan merupakan bagian penting dalam kehidupan kucing.</p></div>
+<div class="cat-info"><img src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=1000&q=80" alt="Kucing"><div class="cat-text"><h3>Kebutuhan makanan</h3><p>Kucing termasuk hewan karnivora yang membutuhkan nutrisi tertentu dari makanan. Makanan kucing yang dibuat khusus biasanya mengandung berbagai nutrisi yang dibutuhkan untuk membantu menjaga tubuhnya.</p><p>Selain makanan, kucing juga harus mendapatkan air minum yang bersih. Air sangat penting untuk membantu menjaga fungsi tubuh.</p><p>Jumlah makanan yang dibutuhkan dapat berbeda tergantung usia, ukuran tubuh, aktivitas, dan kondisi masing-masing kucing.</p></div></div>
+<div class="card"><h3>🥣 Contoh makanan</h3><ul><li>Makanan kucing kering.</li><li>Makanan kucing basah.</li><li>Makanan yang sesuai dengan kebutuhan kucing.</li><li>Air minum bersih.</li></ul></div></section>
+
+<section class="page"><div class="page-number">Halaman 4</div><div class="page-title"><h2>🏠 Habitat Kucing</h2><p>Kucing dapat hidup di berbagai macam lingkungan.</p></div>
+<div class="cat-info"><img src="https://images.unsplash.com/photo-1519052537078-e6302a4968d4?auto=format&fit=crop&w=1000&q=80" alt="Kucing di rumah"><div class="cat-text"><h3>Tempat hidup kucing</h3><p>Kucing peliharaan biasanya hidup di dalam rumah atau lingkungan sekitar rumah. Mereka dapat beristirahat di tempat yang nyaman dan aman.</p><p>Kucing yang hidup bebas dapat ditemukan di berbagai lingkungan seperti daerah pemukiman, pasar, taman, pedesaan, dan tempat lainnya.</p><p>Lingkungan yang aman membantu kucing beristirahat, mencari makanan, dan melakukan aktivitas sehari-hari.</p></div></div></section>
+
+<section class="page"><div class="page-number">Halaman 5</div><div class="page-title"><h2>😴 Kebiasaan Tidur Kucing</h2><p>Kucing terkenal sebagai hewan yang suka tidur dan beristirahat.</p></div>
+<div class="cat-info"><img src="https://images.unsplash.com/photo-1511044568932-338cba0ad803?auto=format&fit=crop&w=1000&q=80" alt="Kucing sedang tidur"><div class="cat-text"><h3>Waktu istirahat</h3><p>Kucing dapat menghabiskan banyak waktu dalam sehari untuk tidur atau beristirahat. Waktu tidur membantu tubuh kucing memulihkan energi.</p><p>Kucing tidak selalu tidur dalam waktu yang panjang. Mereka juga dapat tidur sebentar kemudian bangun untuk makan, bermain, atau mengamati lingkungan.</p><p>Anak kucing biasanya membutuhkan lebih banyak waktu untuk tidur karena tubuhnya sedang mengalami proses pertumbuhan.</p></div></div></section>
+
+<section class="page"><div class="page-number">Halaman 6</div><div class="page-title"><h2>👀 Mata Kucing</h2><p>Mata merupakan salah satu bagian tubuh kucing yang menarik.</p></div>
+<div class="cat-info"><img src="https://images.unsplash.com/photo-1533738363-b7f9aef128ce?auto=format&fit=crop&w=1000&q=80" alt="Mata kucing"><div class="cat-text"><h3>Kemampuan penglihatan</h3><p>Mata kucing membantu mereka melihat lingkungan di sekitarnya. Kucing juga memiliki kemampuan melihat dalam kondisi cahaya rendah dengan lebih baik daripada manusia.</p><p>Pupil mata kucing dapat berubah ukuran mengikuti kondisi cahaya. Ketika cahaya sangat terang, pupil dapat menjadi lebih kecil.</p><p>Mata yang baik sangat membantu kucing ketika bergerak, mencari makanan, bermain, dan mengamati lingkungan.</p></div></div></section>
+
+<section class="page"><div class="page-number">Halaman 7</div><div class="page-title"><h2>👂 Telinga Kucing</h2><p>Kucing mempunyai kemampuan pendengaran yang baik.</p></div>
+<div class="cat-info"><img src="https://images.unsplash.com/photo-1495360010541-f48722b34f7d?auto=format&fit=crop&w=1000&q=80" alt="Kucing"><div class="cat-text"><h3>Pendengaran kucing</h3><p>Telinga kucing dapat bergerak dan membantu mereka mengetahui arah datangnya suara.</p><p>Pendengaran yang baik sangat berguna bagi kucing untuk mengetahui keadaan lingkungan dan merespons suara tertentu.</p><p>Posisi telinga juga dapat berubah ketika kucing memperhatikan sesuatu atau sedang merespons keadaan di sekitarnya.</p></div></div></section>
+
+<section class="page"><div class="page-number">Halaman 8</div><div class="page-title"><h2>🐾 Kaki dan Cakar Kucing</h2><p>Kaki dan cakar membantu kucing melakukan berbagai aktivitas.</p></div>
+<div class="cat-info"><img src="https://images.unsplash.com/photo-1574158622682-e40e69881006?auto=format&fit=crop&w=1000&q=80" alt="Kucing"><div class="cat-text"><h3>Gerakan kucing</h3><p>Kucing memiliki kaki yang kuat dan lentur. Kaki tersebut membantu mereka berjalan, berlari, melompat, dan memanjat.</p><p>Cakar dapat membantu kucing mencengkeram permukaan. Cakar juga digunakan ketika bermain atau mempertahankan diri.</p><p>Kemampuan bergerak dengan cepat membuat kucing menjadi hewan yang cukup lincah.</p></div></div></section>
+
+<section class="page"><div class="page-number">Halaman 9</div><div class="page-title"><h2>🗣️ Suara dan Komunikasi Kucing</h2><p>Kucing menggunakan suara dan bahasa tubuh untuk berkomunikasi.</p></div>
+<div class="cat-info"><img src="https://images.unsplash.com/photo-1573865526739-10659fec78a5?auto=format&fit=crop&w=1000&q=80" alt="Kucing"><div class="cat-text"><h3>Bagaimana kucing berkomunikasi?</h3><p>Kucing dapat mengeluarkan berbagai suara seperti mengeong, mendengkur, mendesis, dan suara lainnya.</p><p>Selain suara, kucing juga menggunakan posisi telinga, gerakan ekor, posisi tubuh, dan ekspresi untuk memberikan respons terhadap lingkungan.</p><p>Karena itu, memahami kucing tidak hanya dengan mendengarkan suaranya. Bahasa tubuh juga penting.</p></div></div></section>
+
+<section class="page"><div class="page-number">Halaman 10</div><div class="page-title"><h2>🎨 Warna dan Pola Bulu</h2><p>Setiap kucing dapat memiliki warna dan pola bulu yang berbeda.</p></div>
+<div class="cat-info"><img src="https://images.unsplash.com/photo-1592194996308-7b43878e84a6?auto=format&fit=crop&w=1000&q=80" alt="Kucing berbulu"><div class="cat-text"><h3>Keanekaragaman warna</h3><p>Warna bulu kucing dapat berupa putih, hitam, abu-abu, jingga, cokelat, krem, atau kombinasi beberapa warna.</p><p>Selain warna, kucing juga dapat memiliki berbagai pola seperti belang, bercorak, dua warna, atau tiga warna.</p><p>Perbedaan warna dan pola bulu membuat setiap kucing memiliki penampilan yang khas.</p></div></div></section>
+
+<section class="page"><div class="page-number">Halaman 11</div><div class="page-title"><h2>🧼 Merawat Kucing</h2><p>Memelihara kucing berarti juga bertanggung jawab terhadap kebutuhannya.</p></div>
+<div class="cat-info"><img src="https://images.unsplash.com/photo-1495361007534-9f8e9b1f7f3d?auto=format&fit=crop&w=1000&q=80" alt="Kucing peliharaan"><div class="cat-text"><h3>Perawatan dasar</h3><p>Kucing membutuhkan makanan yang sesuai, air bersih, tempat tinggal yang aman, serta lingkungan yang bersih.</p><p>Pemilik juga perlu memperhatikan kondisi tubuh dan perilaku kucing. Jika terdapat perubahan yang mengkhawatirkan, pemeriksaan oleh dokter hewan dapat membantu mengetahui penyebabnya.</p><p>Kebersihan tempat makan, tempat tidur, dan tempat kucing melakukan aktivitas juga perlu diperhatikan.</p></div></div>
+<div class="card"><h3>📝 Hal yang perlu dilakukan</h3><ul><li>Menyediakan makanan yang sesuai.</li><li>Menyediakan air minum bersih.</li><li>Menjaga kebersihan lingkungan.</li><li>Memberikan tempat istirahat yang aman.</li><li>Memperhatikan kesehatan kucing.</li></ul></div></section>
+
+<section class="page"><div class="page-number">Halaman 12</div><div class="page-title"><h2>🧠 Kecerdasan dan Perilaku</h2><p>Kucing dapat belajar dari pengalaman dan lingkungannya.</p></div>
+<div class="cat-info"><img src="https://images.unsplash.com/photo-1568152950566-c1bf43f4ab28?auto=format&fit=crop&w=1000&q=80" alt="Kucing"><div class="cat-text"><h3>Perilaku kucing</h3><p>Kucing dapat mengenali lingkungan, suara, rutinitas, dan orang yang sering berada di sekitarnya.</p><p>Mereka juga dapat belajar melalui pengalaman. Misalnya, kucing dapat mengingat tempat tertentu yang sering digunakan untuk makan atau beristirahat.</p><p>Setiap kucing mempunyai karakter yang berbeda. Ada yang aktif dan suka bermain, sementara yang lain lebih tenang dan suka mengamati.</p></div></div></section>
+
+<section class="page"><div class="page-number">Halaman 13</div><div class="page-title"><h2>🐈 Anak Kucing</h2><p>Anak kucing mengalami perkembangan yang cepat.</p></div>
+<div class="cat-info"><img src="https://images.unsplash.com/photo-1519052537078-e6302a4968d4?auto=format&fit=crop&w=1000&q=80" alt="Anak kucing"><div class="cat-text"><h3>Masa pertumbuhan</h3><p>Anak kucing membutuhkan lingkungan yang aman selama masa pertumbuhan. Mereka mulai belajar bergerak, bermain, dan berinteraksi dengan lingkungan.</p><p>Pada masa pertumbuhan, kebutuhan makanan dan perawatan juga harus disesuaikan dengan tahap perkembangan mereka.</p><p>Pengalaman yang baik selama masa awal kehidupan dapat membantu perkembangan perilaku anak kucing.</p></div></div></section>
+
+<section class="page"><div class="page-number">Halaman 14</div><div class="page-title"><h2>🌍 Kucing dan Manusia</h2><p>Kucing sudah lama hidup berdampingan dengan manusia.</p></div>
+<div class="cat-info"><img src="https://images.unsplash.com/photo-1495360010541-f48722b34f7d?auto=format&fit=crop&w=1000&q=80" alt="Kucing"><div class="cat-text"><h3>Hubungan kucing dengan manusia</h3><p>Kucing merupakan salah satu hewan yang banyak dipelihara manusia. Mereka dapat menjadi bagian dari kehidupan keluarga dan lingkungan rumah.</p><p>Tingkah laku kucing yang unik juga membuatnya sering muncul dalam foto, video, cerita, dan berbagai karya seni.</p><p>Meskipun kucing dapat hidup bersama manusia, mereka tetap merupakan makhluk hidup yang membutuhkan perlakuan baik dan bertanggung jawab.</p></div></div></section>
+
+<section class="page"><div class="page-number">Halaman 15</div><div class="page-title"><h2>📚 Kesimpulan</h2><p>Halaman terakhir dari buku tempel kucing.</p></div>
+<div class="cat-info"><img src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=1000&q=80" alt="Kucing"><div class="cat-text"><h3>Mengenal kucing lebih dekat</h3><p>Kucing merupakan mamalia kecil yang mempunyai banyak kemampuan menarik. Mereka memiliki tubuh yang lentur, pendengaran yang baik, penglihatan yang sesuai dengan gaya hidupnya, serta cakar yang membantu berbagai aktivitas.</p><p>Kucing juga mempunyai berbagai macam warna dan pola bulu. Perilaku setiap kucing dapat berbeda sehingga mereka mempunyai karakter masing-masing.</p><p>Sebagai hewan peliharaan, kucing membutuhkan makanan, air bersih, tempat tinggal yang aman, kebersihan, perhatian, dan perawatan kesehatan yang baik.</p></div></div>
+<div class="card"><h3>🐱 Pesan Penutup</h3><p>Mengenal hewan bukan hanya mengetahui nama dan ciri-cirinya. Kita juga perlu memahami kebutuhan mereka dan memperlakukan hewan dengan baik. Kucing adalah makhluk hidup yang perlu dirawat dan dihargai.</p></div></section>
+
+<footer class="footer">
+<h2>🐾 Terima Kasih Sudah Membaca 🐾</h2>
+<p>Buku tempel tentang hewan kucing<p>
+<p>dibuat oleh Ahmad maulidi</p>
+<a class="visit-button" href="https://linktr.ee/Nuxliy" target="_blank" rel="noopener noreferrer">berkunjung di semua media developer!</a>
+</footer>
+</div>
+</body>
+</html>
